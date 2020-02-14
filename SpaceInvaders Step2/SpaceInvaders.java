@@ -19,7 +19,11 @@ public class SpaceInvaders extends JFrame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-
+        Intro intro = new Intro();
+        this.add(intro);
+        this.pack();
+        this.setVisible(true);
+        intro.run(); 
     }
 
     public SpaceInvaders() {
