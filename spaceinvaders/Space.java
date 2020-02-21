@@ -7,6 +7,7 @@ package spaceinvaders;
 
 import java.awt.Canvas;
 import java.awt.Color;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -16,7 +17,7 @@ public class Space extends Canvas{
 
     public Space() {
         System.out.println("Setting canvas background and dimentions");
-        setBackground(Color.BLACK);
+        ImageIcon Spazio = new ImageIcon("images/CieloEpico.jpg");
         setSize(800, 600);
     }
     
