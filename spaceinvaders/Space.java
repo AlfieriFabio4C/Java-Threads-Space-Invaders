@@ -17,7 +17,6 @@ public class Space extends Canvas{
 
     public Space() {
         System.out.println("Setting canvas background and dimentions");
-        ImageIcon Spazio = new ImageIcon("images/CieloEpico.jpg");
         setSize(800, 600);
     }
     
